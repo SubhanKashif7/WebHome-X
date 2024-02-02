@@ -1,0 +1,1 @@
+const iteretor = 0;
