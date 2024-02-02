@@ -1,3 +1,10 @@
+const navButtons = document.querySelectorAll(".btn_rightNav");
+const cssStyleSheet = document.querySelector("#cssStyle");
+const searchForm = document.querySelector("form");
+const searchForm_Input = document.querySelector("#content_form #searchInput_content_form");
+const goButtons = document.querySelectorAll(".go-btn");
+const version = document.querySelector("h5");
+
 const allUrls = {
     about : {url : "https://www.google.com"},
     about_Sites : {url : "https://www.google.com"},
@@ -5,16 +12,14 @@ const allUrls = {
     api : {url : "https://www.google.com"},
     ui_Css : {url : "https://www.google.com"},
 }
-const navButtons = document.querySelectorAll(".btn_rightNav");
-const cssStyleSheet = document.querySelector("#cssStyle");
 //forEach  For Nav
 
 const go = (link) => {
         window.location.href = link;
 };
 
-navButtons.forEach((allBtn)=>{
-    allBtn.addEventListener('click',(btn)=>{
+navButtons.forEach((allnavBtn)=>{
+    allnavBtn.addEventListener('click',(btn)=>{
         if (btn.target.id==="about"){
             go(allUrls.about.url);
         }else if (btn.target.id==="about_site"){
