@@ -4,16 +4,15 @@ const searchForm = document.querySelector("form");
 const searchForm_Input = document.querySelector("#content_form #searchInput_content_form");
 const goButtons = document.querySelectorAll(".go-btn");
 const version = document.querySelector("h5");
-
+const cards = 3;
 const allUrls = {
     about : {url : "https://www.google.com"},
-    about_Sites : {url : "https://www.google.com"},
-    sites : {url : "https://www.google.com"},
-    api : {url : "https://www.google.com"},
-    ui_Css : {url : "https://www.google.com"},
-}
+    about_Sites : {url : "./pages/ABOUT-SITE_PAGE/index.html"},
+    sites : {url : "./pages/SITES_PAGE/index.html"},
+    api : {url : "./pages/API_PAGE/index.html"},
+    ui_Css : {url : "./pages/UI-PAGE/index.html"},
+};
 //forEach  For Nav
-
 const go = (link) => {
         window.location.href = link;
 };
@@ -35,3 +34,4 @@ navButtons.forEach((allnavBtn)=>{
         }
     });
 });
+
