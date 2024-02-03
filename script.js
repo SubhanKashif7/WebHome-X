@@ -33,5 +33,8 @@ navButtons.forEach((allnavBtn)=>{
             console.error("errr")
         }
     });
+
 });
+
+
 
