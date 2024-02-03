@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+#navbar {
+    width: 100%;
+    background-color: #000f29;
+    padding: 10px;
+}
+
+#navbar_nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#title_main {
+    padding: 8px;
+    font-size: 35px;
+    font-family: Poppins, sans-serif;
+    color: #007ffe;
+}
+
+.btn_rightNav {
+    padding: 12px 15px;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 15.5px;
+    border: 1px solid none;
+}
+
+.btn_rightNav:hover {
+    background-color: #007eff;
+}
+
+#main-top-0 {
+    background-image: url("./favicon_io/abstract-business-professional-background-banner-design-multipurpose/42.jpg");
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: Poppins, sans-serif;
+}
+
+#content_h2 {
+    font-size: 55px;
+    color: #007ffe;
+}
+
+#content_form {
+    padding: 4px;
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+input[type="search"] {
+    padding: 10px 15px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: #000f29;
+    color: #fff;
+}
+
+button[type="submit"] {
+    padding: 10px 10px;
+    background-color: #000f29;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+
+input[type="search"]::placeholder {
+    padding: 5px;
+}
+
+#below-main-top0 {
+    background-color: #000f29;
+    color: #eee;
+    font-family: Montserrat, arial, sans-serif;
+}
+
+#intro__below-main-top0 {
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.para {
+    margin-top: 5px;
+}
+
+#ac-cards {
+    padding-top: 14px;
+    padding: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+#category-cards {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.cardsInner {
+    background-color: #000f29;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 10px;
+    width: 100%;
+}
+
+.image-inner {
+    width: 100%;
+}
+
+.cards-h3 {
+    margin: 0;
+}
+
+.go-innerCard {
+    margin-top: 10px;
+}
+
+#card1 img {
+    width: 100%;
+    height: auto;
+}
+
+.go-btn {
+    background-color: #00020e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#bottom-main {
+    background-color: #000f29;
+    color: #ffff;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#outer-main {
+    background-color: #000;
+}
+
+#content-i {
+    margin: 15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.para {
+    font-family: Montserrat, sans-serif;
+}
+
+.h3-innerCard {
+    font-family: Poppins, sans-serif;
+    font-size: 26.8px;
+}
+
+#cards-parent {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 32px;
+    place-items: center;
+    width: 60%;
+}
+
+.cards {
+    padding: 10px 20px;
+    background-color: #00020e;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; /* Adjusted for responsiveness */
+    gap: 20px;
+    height: 100%;
+}
+
+.image-container {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px; /* Adjusted for responsiveness */
+}
+
+#oneIMG{
+    background-image: url("./favicon_io/I.png");
+}
+#twoIMG{
+    background-image: url("./favicon_io/sites.png");
+}
+#threeIMG{
+    background-image: url("./favicon_io/ui.png");
+}
+
+.btn-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-family: Poppins,sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+#footer{
+    background-color: #00020e;
+    height: 50px;
+}
+
+h5{
+    color: #fff;
+    font-family: Montserrat,sans-serif;
+}
+
+#footer-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Add responsive styles for screens up to 768px width */
+    #navbar_nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }#rightNav {
+        margin-top: 10px;
+    }.cards {
+        width: 100%;
+    }.image-container {
+        height: 200px;
+    }#cards-parent{
+        display: flex;
+        flex-direction: column;
+    }
+}

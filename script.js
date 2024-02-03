@@ -10,7 +10,7 @@ const allUrls = {
     about_Sites : {url : "./pages/ABOUT-SITE_PAGE/index.html"},
     sites : {url : "./pages/SITES_PAGE/index.html"},
     api : {url : "./pages/API_PAGE/index.html"},
-    ui_Css : {url : "./pages/UI-PAGE/index.html"},
+    ui_Css : {url : "./pages/UI_PAGE/index.html"},
 };
 //forEach  For Nav
 const go = (link) => {
